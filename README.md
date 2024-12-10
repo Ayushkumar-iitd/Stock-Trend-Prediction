@@ -1,10 +1,10 @@
 # Stock-Trend-Predictor
 
-# Open the Stock-Trend Predictor folder on your VS Code, then open app.py file and write 'streamlit run app.py' on your terminal. You will be directed to new page where the predictor will be working.
-# It takes Stock's code from yfinance website ( https://finance.yahoo.com/) like ORCL for Oracle Corporation, MDB for MongoDB etc, then predicts the stocks trends like 100MA, 200MA and other stock parameters.
-# I have trained Keras on Jupyter notebook (model_training.ipynb is the file of training) then extracted the trained model using keras_model.h5 and used it to make the Stock predictor using streamlit.
+Open the Stock-Trend Predictor folder on your VS Code, then open app.py file and write 'streamlit run app.py' on your terminal. You will be directed to new page where the predictor will be working.
+It takes Stock's code from yfinance website ( https://finance.yahoo.com/) like ORCL for Oracle Corporation, MDB for MongoDB etc, then predicts the stocks trends like 100MA, 200MA and other stock parameters.
+I have trained Keras on Jupyter notebook (model_training.ipynb is the file of training) then extracted the trained model using keras_model.h5 and used it to make the Stock predictor using streamlit.
 
-# Code:
+Code:
 
     import numpy as np
     import pandas as pd
